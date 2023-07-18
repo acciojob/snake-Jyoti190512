@@ -1,16 +1,13 @@
-
-/* Your CSS Code here. */
 #gameContainer {
   width: 400px;
   height: 400px;
   display: grid;
-  grid-template-columns: repeat(40, 1fr);
-  grid-template-rows: repeat(40, 1fr);
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
 }
 
 .pixel {
   border: 1px solid #000;
-  background-color: #fff;
 }
 
 .food {
